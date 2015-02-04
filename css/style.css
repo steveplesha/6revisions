@@ -66,6 +66,8 @@ nav ul li a {
 	margin-right: 27px;
 }
 
+nav ul li a:hover { color: #F9BD9C; }
+
 .inline { display: inline; }
 
 .hero {
@@ -112,6 +114,8 @@ nav ul li a {
 	margin-left: 45px;
 	font-weight: bold;
 }
+
+.hero button:hover { color: #fff; }
 
 .hero img {
 	float: right;
@@ -162,6 +166,8 @@ nav ul li a {
 	font-size: 14px;
 }
 
+.info-bar a:hover { text-decoration: underline; }
+
 .content {
 	background-color: #D3C6A4;
 	color: #545252;
@@ -187,7 +193,7 @@ nav ul li a {
 	box-shadow: 0 2px 5px #000;
 }
 
-.content button {
+.call-to-action {
 	display: block;
 	color: #b0a7a7;
 	background: linear-gradient( #51260f, #2b1508 );
@@ -200,6 +206,10 @@ nav ul li a {
 	font-family: calibri;
 	margin: 40px auto 75px auto;
 	border-radius: 10px;
+}
+
+.call-to-action:hover {
+    background: linear-gradient( #51260f, #6B2F2F );
 }
 
 footer {
